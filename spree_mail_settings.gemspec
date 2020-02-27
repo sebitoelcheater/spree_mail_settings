@@ -22,6 +22,10 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
+  spree_version = '>= 3.1.0', '< 5.0'
+  s.add_runtime_dependency 'spree_backend', spree_version
+  s.add_runtime_dependency 'spree_auth_devise', spree_version
+
   s.add_development_dependency 'capybara'
   s.add_development_dependency 'coffee-rails'
   s.add_development_dependency 'database_cleaner'
