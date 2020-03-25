@@ -9,8 +9,8 @@ Spree::AppConfiguration.class_eval do
   preference :mail_host, :string, default: 'localhost'
   preference :mail_domain, :string, default: 'localhost'
   preference :mail_port, :integer, default: 25
-  preference :secure_connection_type, :string, default: Core::MailSettings::SECURE_CONNECTION_TYPES[0]
-  preference :mail_auth_type, :string, default: Core::MailSettings::MAIL_AUTH[0]
+  # preference :secure_connection_type, :string, default: Core::MailSettings::SECURE_CONNECTION_TYPES[0]
+  # preference :mail_auth_type, :string, default: Core::MailSettings::MAIL_AUTH[0]
   preference :smtp_username, :string, default: nil
   preference :smtp_password, :string, default: nil
 
