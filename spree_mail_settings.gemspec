@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  spree_version = '>= 3.1.0', '<= 4.1.0'
+  spree_version = '4.1'
   s.add_runtime_dependency 'spree_backend', spree_version
   s.add_runtime_dependency 'spree_auth_devise', spree_version
 
@@ -39,5 +39,4 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rubocop'
   s.add_development_dependency 'appraisal'
   s.add_development_dependency 'pg'
-  s.add_development_dependency 'mysql2'
 end
