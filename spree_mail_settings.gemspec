@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
 
   spree_version = '4.2'
   s.add_runtime_dependency 'spree_backend', spree_version
-  s.add_runtime_dependency 'spree_auth_devise', '4.3'
+  s.add_runtime_dependency 'spree_auth_devise', '4.3.4'
 
   s.add_development_dependency 'capybara'
   s.add_development_dependency 'coffee-rails'
